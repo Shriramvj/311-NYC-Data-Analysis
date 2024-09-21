@@ -1,14 +1,19 @@
 🏙️ 311 NYC Service Requests Analysis
+
 📋 Project Overview
+
 New York City is home to millions of residents, and every day, thousands of 311 service requests are made concerning various issues—ranging from noise complaints and broken streetlights to sanitation problems. This project dives into the 311 NYC Service Request data, with the goal of helping city agencies, planners, and administrators understand the types of issues New Yorkers face most frequently. Ultimately, this analysis aims to improve resource allocation, streamline response times, and enhance the quality of life in the city.
 
 This project focuses on answering the following key questions:
 
 Which borough efficiently handles the most service requests?
+
 What are the most common types of agency requests made by residents?
+
 Leveraging Google BigQuery, SQL, Python, and Tableau, this analysis builds an interactive dashboard to provide real-time insights into service request trends. This helps city agencies make data-driven decisions, leading to a better-managed city.
 
 🚀 Use Case
+
 1. Agency Requests and Service Efficiency
 New York City agencies face the challenge of handling overwhelming numbers of service requests each day. This project identifies:
 
@@ -26,6 +31,7 @@ The types of complaints that are most common in each borough, providing a deeper
 This analysis enables city planners to highlight the boroughs that are performing the best and pinpoint areas where improvements are needed.
 
 🛠️ Tools Used
+
 1. Google BigQuery
 Handling a large dataset such as the 311 NYC Service Requests requires robust tools. Google BigQuery was used to:
 
@@ -36,6 +42,7 @@ SQL was essential for:
 
 Data extraction: Pulling the most relevant data for analysis from Google BigQuery.
 Aggregation and Summarization: Grouping the data by categories like borough, agency, and complaint type to understand service request trends.
+
 3. Python
 Python was crucial for:
 
@@ -47,8 +54,11 @@ Python provided a deep dive into the data, allowing for detailed exploration bef
 Tableau and Tableau Prep played key roles in:
 
 Building Interactive Dashboards: A visually appealing, real-time dashboard was built using Tableau, providing an at-a-glance understanding of the service request trends, borough performance, and agency efficiency.
+
 Data Preparation: Tableau Prep was used for additional data cleaning, shaping, and aggregation before loading the data into Tableau for visualization.
+
 📊 Key Insights & Results
+
 1. Agency Performance:
 Top Agencies: The New York Police Department (NYPD) and the Department of Sanitation handled the bulk of requests, with noise complaints and sanitation violations topping the list.
 Response Time: Emergency-related complaints, such as those handled by the FDNY, showed quicker resolution times compared to non-emergency issues.
@@ -99,6 +109,7 @@ The results of this analysis provide valuable insights into how city agencies an
 Predictive Analytics: Incorporating machine learning to predict future service request trends based on historical data.
 Enhanced Visualizations: Adding more granular visualizations to show request trends by time of day or seasonality.
 Integrating Additional Datasets: Expanding the analysis by including related datasets such as weather or traffic to understand how external factors influence service requests.
+
 👤 Author
+
 Shriram Vijaykumar
-Feel free to reach out to me on LinkedIn for any questions or collaboration opportunities!
